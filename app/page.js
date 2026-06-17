@@ -26,10 +26,20 @@ export default function Home() {
           
           <label>Team Members (Optional):</label>
           <textarea placeholder="e.g. John Doe - 05/1990" rows="3" style={{ padding: "8px" }}></textarea>
-          <a href="/results" style={{ textDecoration: "none" }}>
-            <button style={{ marginTop: "20px", backgroundColor: brandColors.gold, color: brandColors.navy, padding: "12px", border: "none", cursor: "pointer", fontWeight: "bold", fontSize: "1rem", width: "100%" }}>
-              Submit for 7-Day Free Audit
-            </button>
+          <a href="/results" style={{ 
+            display: "inline-block", 
+            marginTop: "20px", 
+            backgroundColor: brandColors.gold, 
+            color: brandColors.navy, 
+            padding: "12px", 
+            textDecoration: "none", 
+            textAlign: "center", 
+            fontWeight: "bold", 
+            borderRadius: "5px",
+            width: "100%",
+            boxSizing: "border-box"
+          }}>
+            Submit for 7-Day Free Audit
           </a>
         </form>
       </section>
