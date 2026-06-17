@@ -3,7 +3,7 @@ export default function Home() {
 
   return (
     <main style={{ fontFamily: "sans-serif", backgroundColor: brandColors.navy, color: brandColors.white, padding: "2rem", minHeight: "100vh" }}>
-      <h1 style={{ color: brandColors.gold, textAlign: "center" }}>Metaphysically SpeakN</h1>
+      <h1 style={{ color: brandColors.gold, textAlign: "center" }}>Metaphysically  SpeakN</h1>
       
       <section style={{ maxWidth: "600px", margin: "auto", border: `1px solid ${brandColors.gold}`, padding: "2rem", borderRadius: "10px" }}>
         <h2 style={{ textAlign: "center" }}>Start Your Audit</h2>
