@@ -1,3 +1,4 @@
+import Link from 'next/link';
 export default function Home() {
   const brandColors = { navy: "#000080", gold: "#FFD700", white: "#FFFFFF" };
 
@@ -25,7 +26,7 @@ export default function Home() {
           
           <label>Team Members (Optional):</label>
           <textarea placeholder="e.g. John Doe - 05/1990" rows="3" style={{ padding: "8px" }}></textarea>
-        <a href="/results" style={{ textDecoration: "none" }}>
+        <Link href="/results" style={{ textDecoration: "none" }}>
   <button type="button" style={{ 
     marginTop: "20px", 
     backgroundColor: brandColors.gold, 
@@ -39,7 +40,7 @@ export default function Home() {
   }}>
     Submit for 7-Day Free Audit
   </button>
-</a>
+</Link>
       </section>
     </main>
   );
